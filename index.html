@@ -27,6 +27,17 @@
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i) {
+            w[l]=w[l]||[]; w[l].push({
+                'gtm.start':
+                    new Date().getTime(),event: 'gtm.js'
+            }); var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'? '&l='+l:''; j.async=true; j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl; f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WK5ZVSX4');</script>
+    <!-- End Google Tag Manager -->
+
     <style>
         * {
             margin: 0;
@@ -161,6 +172,11 @@
             box-shadow: 0 4px 15px rgba(100, 49, 246, 0.3);
             position: relative;
             overflow: hidden;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-align: center;
         }
 
         .cta-button::before {
@@ -344,7 +360,6 @@
         .hero-cta:hover {
             transform: translateY(-5px) scale(1.08);
             box-shadow: 0 15px 40px rgba(100, 49, 246, 0.6);
-            animation: pulse 1.5s ease-in-out infinite;
         }
 
         .hero-cta i {
@@ -352,11 +367,12 @@
         }
 
         .hero-cta-secondary {
-            background: linear-gradient(135deg, #8B5CF6, #A78BFA);
+            background: linear-gradient(135deg, #10B981, #34D399);
         }
 
         .hero-cta-secondary:hover {
-            background: linear-gradient(135deg, #7C3AED, #8B5CF6);
+            background: linear-gradient(135deg, #059669, #10B981);
+            box-shadow: 0 15px 40px rgba(16, 185, 129, 0.6);
         }
 
         /* Slider Navigation */
@@ -846,13 +862,14 @@
         }
 
         .footer-btn-secondary {
-            background: rgba(139, 92, 246, 0.3);
-            border-color: rgba(139, 92, 246, 0.5);
+            background: rgba(16, 185, 129, 0.3);
+            border-color: rgba(16, 185, 129, 0.5);
         }
 
         .footer-btn-secondary:hover {
-            background: #8B5CF6;
-            border-color: #8B5CF6;
+            background: #10B981;
+            border-color: #10B981;
+            box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
         }
 
         .footer-bottom {
@@ -1073,6 +1090,11 @@
                 font-size: 0.85rem;
                 padding: 8px 16px;
                 min-width: 120px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 6px;
+                text-align: center;
             }
 
             /* Hero Section Mobile */
@@ -1278,7 +1300,11 @@
             .cta-button {
                 width: 100%;
                 max-width: 200px;
+                display: inline-flex;
+                align-items: center;
                 justify-content: center;
+                gap: 6px;
+                text-align: center;
                 font-size: 0.8rem;
                 padding: 10px 16px;
             }
@@ -1495,6 +1521,11 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK5ZVSX4" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Header -->
     <header class="header">
         <div class="nav-container">
@@ -1506,7 +1537,7 @@
                     <i class="fas fa-phone"></i>
                     96550407917
                 </a>
-                <a href="https://wa.me/+96550407917" class="cta-button" target="_blank">
+                <a href="https://wa.me/+96590088101" class="cta-button" target="_blank">
                     <i class="fab fa-whatsapp"></i>
                     اطلب الآن
                 </a>
@@ -1528,9 +1559,9 @@
                             <i class="fab fa-whatsapp"></i>
                             اطلب عاملة منزلية الآن
                         </a>
-                        <a href="https://wa.me/+96512345678" class="hero-cta hero-cta-secondary" target="_blank">
+                        <a href="https://wa.me/+96590088101" class="hero-cta hero-cta-secondary" target="_blank">
                             <i class="fab fa-whatsapp"></i>
-                            اطلب عاملة منزلية الآن
+                            خدمة العملاء المميزة
                         </a>
                     </div>
                 </div>
@@ -1547,9 +1578,9 @@
                             <i class="fab fa-whatsapp"></i>
                             اطلب عاملة منزلية الآن
                         </a>
-                        <a href="https://wa.me/+96512345678" class="hero-cta hero-cta-secondary" target="_blank">
+                        <a href="https://wa.me/+96590088101" class="hero-cta hero-cta-secondary" target="_blank">
                             <i class="fab fa-whatsapp"></i>
-                            اطلب عاملة منزلية الآن
+                            خدمة العملاء المميزة
                         </a>
                     </div>
                 </div>
@@ -1686,12 +1717,12 @@
                         <div class="footer-buttons">
                             <a href="https://wa.me/+96550407917" class="footer-btn footer-btn-primary" target="_blank">
                                 <i class="fab fa-whatsapp"></i>
-                                اطلب الآن
+                                اطلب خدمة التنظيف
                             </a>
-                            <a href="https://wa.me/+96512345678" class="footer-btn footer-btn-secondary"
+                            <a href="https://wa.me/+96590088101" class="footer-btn footer-btn-secondary"
                                 target="_blank">
                                 <i class="fab fa-whatsapp"></i>
-                                اطلب الآن
+                                خدمة العملاء
                             </a>
                         </div>
                     </div>
@@ -1699,7 +1730,7 @@
 
                 <div class="footer-bottom">
                     <div class="footer-copyright">
-                        <p>&copy; 2024 كلينكو. جميع الحقوق محفوظة</p>
+                        <p>&copy; 2025 كلينكو. جميع الحقوق محفوظة</p>
                     </div>
                 </div>
             </div>
